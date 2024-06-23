@@ -325,8 +325,7 @@ color: #FFFFFF;
 .features .media.service-box .pull-left > i{
 color:#CC5632;
 }
-.media.service-box:hover .pull-left > i {  
-}
+
 #portfolio {
   padding: 100px 0;
   background: #000000;
@@ -717,9 +716,7 @@ margin: 0 8px;
 #contact-us {
   padding: 100px 0 10px;
 }
-#contact-us h1,
-#contact-us h2 {
-}
+
 /*Contact*/
  .contact-info{
  padding:60px 0;
@@ -777,6 +774,8 @@ text-align: center;
     float: right;
   }
 }
+
+
 .form-control {
   box-shadow: none;
   -webkit-box-shadow: none;
@@ -805,4 +804,17 @@ margin: 9px auto;
 #portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
 padding: 7px 0 0;
 }
+}
+
+
+@media (max-width: 600px) {
+  #hero-banner{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .column-title{
+    margin-top: 30px;
+  }
+
 }
