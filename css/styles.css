@@ -146,6 +146,12 @@ text-transform: uppercase;
 /*************************
 *******Header******
 **************************/
+
+.navbar-brand img {
+ max-width: auto;
+ max-height: 85px;
+}
+
 #main-nav.navbar-default {
 background: #FFFFFF;
 }
